@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="jogodavelha.cursoandroid.com.jogodavelha.MainActivity"
+    android:background="#ce584c">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/botao1"
+        android:textSize="@dimen/texto_XO"
+        android:textColor="#ce584c"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/botao2"
+        android:layout_toStartOf="@+id/botao2"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/botao2"
+        android:textSize="@dimen/texto_XO"
+        android:textColor="#ce584c"
+        android:layout_alignTop="@+id/botao1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/botao3"
+        android:textSize="@dimen/texto_XO"
+        android:textColor="#ce584c"
+        android:layout_alignTop="@+id/botao2"
+        android:layout_alignLeft="@+id/botao6"
+        android:layout_alignStart="@+id/botao6" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/botao4"
+        android:textSize="@dimen/texto_XO"
+        android:textColor="#ce584c"
+        android:layout_below="@+id/botao1"
+        android:layout_toLeftOf="@+id/botao5"
+        android:layout_toStartOf="@+id/botao5" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/botao5"
+        android:textSize="@dimen/texto_XO"
+        android:textColor="#ce584c"
+        android:layout_below="@+id/botao3"
+        android:layout_alignLeft="@+id/botao2"
+        android:layout_alignStart="@+id/botao2" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/botao6"
+        android:textSize="@dimen/texto_XO"
+        android:textColor="#ce584c"
+        android:layout_below="@+id/botao2"
+        android:layout_toRightOf="@+id/botao2"
+        android:layout_toEndOf="@+id/botao2" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/botao9"
+        android:layout_alignTop="@+id/botao8"
+        android:layout_alignLeft="@+id/botao6"
+        android:layout_alignStart="@+id/botao6"
+        android:textSize="@dimen/texto_XO"
+        android:textColor="#ce584c" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/botao8"
+        android:textSize="@dimen/texto_XO"
+        android:textColor="#ce584c"
+        android:layout_below="@+id/botao4"
+        android:layout_toRightOf="@+id/botao4"
+        android:layout_toEndOf="@+id/botao4" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/botao7"
+        android:textSize="@dimen/texto_XO"
+        android:textColor="#ce584c"
+        android:layout_below="@+id/botao4"
+        android:layout_toLeftOf="@+id/botao5"
+        android:layout_toStartOf="@+id/botao5" />
+
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/botaoResetar"
+        android:text="Resetar"
+        android:textSize="@dimen/texto_XO"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/switch_thumb_disabled_material_light" />
+</RelativeLayout>
