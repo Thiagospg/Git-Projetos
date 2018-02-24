@@ -1,4 +1,0 @@
-Mover a pasta "reports" para: "C:".
-
-
-Caminho final : "C:/reports"
